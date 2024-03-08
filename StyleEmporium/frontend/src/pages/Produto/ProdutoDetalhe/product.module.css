@@ -1,0 +1,254 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+  /* Columns */
+.leftcolumn {
+    width: 65%;
+    position: relative;
+  }
+   
+  .rightcolumn {
+    width: 35%;
+    margin-top: 60px;
+  }
+
+  /* Columns */
+.leftcolumn {
+    width: 65%;
+    position: relative;
+  }
+   
+  .rightcolumn {
+    width: 35%;
+    margin-top: 60px;
+  }
+
+  .productdescription {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .productdescription span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .productdescription h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #4d4343;
+    letter-spacing: -2px;
+
+  }
+  .productdescription p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+
+  }
+
+  .productcolor {
+    margin-bottom: 30px;
+  }
+
+  .cablechoose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      margin-bottom: 20px;
+    }
+     
+    .cablechoose button {
+      border: 2px solid #E1E8EE;
+      border-radius: 6px;
+      padding: 13px 20px;
+      font-size: 14px;
+      color: #5E6977;
+      background-color: #fff;
+      cursor: pointer;
+      transition: all .5s;
+    }
+     
+    .cablechoose button:hover,
+    .cablechoose button:active,
+    .cablechoose button:focus {
+      border: 2px solid #000000;
+      outline: none;
+    }
+
+  /* Cable Configuration */
+.colorchoose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 20px;
+  }
+   
+  .colorchoose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+   
+  .colorchoose button:hover,
+  .colorchoose button:active,
+  .colorchoose button:focus {
+    border: 2px solid #000000;
+    outline: none;
+  }
+   
+  .colorchoose {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+   
+  .colorchoose a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+   
+  .colorchoose a:before {
+    content: "?";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 142, 215, 0.5);
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-right: 5px;
+  }
+
+  /* Product Price */
+.productPrice {
+    display: flex;
+    align-items: center;
+  }
+   
+  .productPrice span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cartbtn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+    margin: 20px;
+  }
+  .cartbtn:hover {
+    background-color: #64af3d;
+  }
+
+  /* Responsive */
+@media (max-width: 940px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+   
+    .leftcolumn,
+    .rightcolumn {
+      width: 100%;
+    }
+   
+    .leftcolumn img {
+      width: 300px;
+      right: 0;
+      top: -65px;
+      left: initial;
+    }
+  }
+   
+  @media (max-width: 535px) {
+    .leftcolumn img {
+      width: 220px;
+      top: -85px;
+    }
+  }
+
+  .input{
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+  }
+
+  .tamanho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  .cor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  .cor:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 2px solid rgb(21, 255, 0);
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  .buttonPrice {
+    background-color: #EFBB40; /* Cor de fundo verde (pode ser alterada) */
+    color: #fff; /* Cor do texto branco (pode ser alterada) */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer;
+    font-size: 16px; /* Tamanho da fonte (pode ser alterado) */
+    
+  }
+  
+  /* Estilo para o botão quando o cursor está sobre ele */
+  .buttonPrice:hover {
+    background-color: #d6a32b; /* Cor de fundo verde escuro quando hover (pode ser alterada) */
+  }

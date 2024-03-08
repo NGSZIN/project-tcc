@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+.section{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    background: #2c3338;
+    border-radius: 9px;
+    border-top: 10px solid #EFBB40;
+    border-bottom: 10px solid #EFBB40;
+    width: 400px;
+    height: 880px;
+}
+
+.input {
+    display: block;
+    margin: 20px auto;
+    background-color: #3b4148;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: 0;
+    color: #EFBB40;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    border: 1px solid #EFBB40;
+}
+
+.input::placeholder{
+    color:#EFBB40;
+}
+
+.input:focus{
+    background-color: #3b4148;
+}
+
+.login {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #EFBB40;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.conta {
+    color: #dfdeee;
+    font-weight: lighter;
+}
+
+.conta {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+    color: #a1a4ad;
+    letter-spacing: 1.5px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+
+::-webkit-input-placeholder {
+    color: #565f79;
+}
+
+
+.semConta {
+    color: #EFBB40;
+    text-decoration: none;
+    margin-top: 17px;
+}
+
+.btn1 {
+    border: 0;
+    background: #EFBB40;
+    color: #000000;
+    border-radius: 7px;
+    width: 340px;
+    height: 49px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.btn1:hover {
+    background: #f1b322;
+    font-weight: bold;
+}
+
+.forgetpass {
+    position: relative;
+    float: right;
+    right: 28px;
+}
+
+.cliqueAqui{
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+.inputGroup {
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.inputGroup label{
+    background-color: lightblue;
+    padding: 8px;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 8px 0 0 8px;
+}
+
+.inputGroup input{
+    padding: 8px;
+    border-radius: 0 8px 8px 0;
+}

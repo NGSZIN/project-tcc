@@ -1,0 +1,31 @@
+O código apresenta um controlador chamado ProdutoController, que gerencia operações relacionadas a produtos. 
+Ele utiliza bibliotecas como bcrypt para hash de senhas, jsonwebtoken para autenticação por tokens, e modelos 
+(model classes) como Produto, ProdutoImagem, Categoria, Tamanho e Cor para interação com o banco de dados.
+
+
+Create Produto
+
+Este método trata da criação de um novo produto. Ele valida os dados recebidos, verifica se o produto já existe no banco de dados e, 
+se não existir, cria um novo registro de produto junto com informações adicionais como cor, tamanho, categoria e imagens associadas.
+
+getAllProduto
+
+Recupera todos os produtos cadastrados no sistema, ordenados por data de criação em ordem decrescente. 
+As informações incluídas nas consultas envolvem detalhes como tamanho, categoria, imagens e cor associados a cada produto.
+
+ getAllUserProdutos
+
+ Obtém todos os produtos associados a um usuário específico, utilizando a autenticação via token para identificar o usuário logado.
+
+  getProdutoById
+
+  Recupera um produto específico com base em um ID fornecido, incluindo informações detalhadas como tamanho, categoria, imagens e cor associados ao produto.
+
+   removeProdutoById(está com problemaas também)
+
+   Remove um produto do banco de dados com base no ID fornecido, desde que o usuário logado tenha os privilégios necessários para realizar essa ação.
+
+updateProduto(não está sendo utilizado)
+
+Atualiza as informações de um produto existente com base no ID fornecido,
+ verificando se o usuário logado tem permissões adequadas e aplicando as alterações nos dados do produto, incluindo imagens associadas.

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+Input {
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px auto;
+    background-color: #2c3338;
+    border: 4px solid #EFBB40;
+    color: #EFBB40;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.input {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.btn{
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.btn1 {
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #2c3338;
+    color: #EFBB40;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn1:hover {
+    background-color: #b39800;
+    color: #ffffff
+}
+
+h2{
+    text-align: center;
+}
+
+.fundo_imagem{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.imgPerfil{
+  border-radius: 100%;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}

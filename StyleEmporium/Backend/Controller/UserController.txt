@@ -1,0 +1,40 @@
+Este arquivo contém a implementação de um controlador (UserController) para lidar com operações relacionadas a usuários em um sistema. 
+O controlador inclui métodos para registrar um novo usuário, realizar login, verificar informações do usuário, buscar um usuário por ID e editar informações do usuário.
+
+Register 
+ Registra um novo usuário no sistema.
+
+Valida a presença de dados obrigatórios (nome, email, telefone, senha e confirmação de senha).
+Criptografa a senha antes de salvar no banco de dados.
+Verifica se o email já está cadastrado.
+Cria um novo usuário no banco de dados e gera um token de autenticação.
+
+Login 
+
+Realiza o login do usuário no sistema.
+
+Valida a presença de dados obrigatórios (email e senha).
+Verifica se o email está cadastrado.
+Compara a senha fornecida com a senha armazenada no banco de dados.
+Gera um token de autenticação para o usuário logado.
+
+checkUser
+
+Verifica os dados do usuário autenticado.
+
+Obtém o token de autorização da requisição.
+Decodifica o token para obter o ID do usuário.
+Recupera as informações do usuário com base no ID.
+Retorna as informações do usuário ou 'null' se não estiver autenticado.
+
+editUser
+Edita as informações de um usuário existente.
+
+Obtém o ID do usuário da requisição.
+Obtém informações do usuário a serem editadas.
+Realiza validações e verificações necessárias.
+Salva as alterações no banco de dados.
+Retorna uma mensagem de sucesso ou erro.
+
+Esta documentação fornece uma visão geral do propósito e funcionalidades do arquivo UserController.js. 
+Certifique-se de ler e entender a lógica de implementação de cada método para utilização adequada no contexto do seu projeto.
